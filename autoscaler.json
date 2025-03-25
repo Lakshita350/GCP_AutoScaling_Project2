@@ -1,0 +1,13 @@
+```json
+{
+  "name": "autoscaler",
+  "target": "instance-group",
+  "autoscalingPolicy": {
+    "maxNumReplicas": 5,
+    "minNumReplicas": 1,
+    "cpuUtilization": {
+      "utilizationTarget": 0.75
+    }
+  }
+}
+```
